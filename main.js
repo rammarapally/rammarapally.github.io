@@ -12,7 +12,7 @@ const getVisitCount = () => {
         console.log("Website called function API.");
         count = response.count;
         document.getElementById('counter').innerHTML = count;
-    }).catch(function(error) => {
+    }).catch(function(error){
         console.log("Error: " + error);
     });
     return count;
